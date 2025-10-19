@@ -1,81 +1,71 @@
 MapMap
 ====== 
 
-:warning: **Unfortunately, we are no longer able to maintain nor provide support for MapMap anymore. The code is provided "as is".**
+:warning: **Lamentablemente, ya no podemos mantener ni brindar soporte para MapMap. El código se proporciona "tal cual".**
 
-MapMap is a free video mapping software.
+MapMap es un software gratuito de video mapping.
 
-Projection mapping, also known as video mapping and spatial augmented
-reality, is a projection technology used to turn objects, often
-irregularly shaped, into a display surface for video projection.
-These objects may be complex industrial landscapes, such as buildings.
-By using specialized software, a two or three dimensional object is
-spatially mapped on the virtual program which mimics the real
-environment it is to be projected on. The software can interact with a
-projector to fit any desired image onto the surface of that object.
-This technique is used by artists and advertisers alike who can add
-extra dimensions, optical illusions, and notions of movement onto
-previously static objects. The video is commonly combined with, or
-triggered by, audio to create an audio-visual narrative.
+El video mapping, también conocido como video mapping y realidad aumentada espacial, es una tecnología de proyección que se utiliza para convertir objetos, a menudo de formas irregulares, en una superficie de visualización para la proyección de video.
+Estos objetos pueden ser paisajes industriales complejos, como edificios.
+Mediante un software especializado, se mapea espacialmente un objeto bidimensional o tridimensional en el programa virtual, que imita el entorno real sobre el que se proyectará. El software puede interactuar con un proyector para adaptar la imagen deseada a la superficie de ese objeto.
+Esta técnica es utilizada tanto por artistas como por publicistas, quienes pueden añadir dimensiones adicionales, ilusiones ópticas y nociones de movimiento a objetos previamente estáticos.  El vídeo se combina comúnmente con o
+ desencadenado por audio para crear una narrativa audiovisual.
 
 
-Build status
+ Estado de construcción
+ ---------------
+
+ Acciones de Github: ![Construido en macOS](https://github.com/mapmapteam/mapmap/workflows/Build%20on%20macOS/badge.svg) ![Construido en Ubuntu](https://github.com/mapmapteam/mapmap/workflows/Build%20on%20Ubuntu/badge.svg) ![Construido en  Windows](https://github.com/mapmapteam/mapmap/workflows/Build%20on%20Windows/badge.svg)
+
+ Travis CI: [![Construido en Linux y macOS](https://travis-ci.org/mapmapteam/mapmap.svg?branch=develop)](https://travis-ci.org/mapmapteam/mapmap) [![Construido en  Windows](https://ci.appveyor.com/api/projects/status/5b2ww0n8m8s9p55c?svg=true)](https://ci.appveyor.com/project/baydam/mapmap)
+
+Agradecimientos
 ---------------
-
-Github Actions: ![Build on macOS](https://github.com/mapmapteam/mapmap/workflows/Build%20on%20macOS/badge.svg) ![Build on Ubuntu](https://github.com/mapmapteam/mapmap/workflows/Build%20on%20Ubuntu/badge.svg) ![Build on Windows](https://github.com/mapmapteam/mapmap/workflows/Build%20on%20Windows/badge.svg)
-
-Travis CI: [![Build on Linux and macOS](https://travis-ci.org/mapmapteam/mapmap.svg?branch=develop)](https://travis-ci.org/mapmapteam/mapmap) [![Build on Windows](https://ci.appveyor.com/api/projects/status/5b2ww0n8m8s9p55c?svg=true)](https://ci.appveyor.com/project/baydam/mapmap)
-
-Ackowledgements
----------------
-This project was made possible by the support of the International
-Organization of La Francophonie.
+Este proyecto fue posible gracias al apoyo de la Organización Internacional de la Francofonía.
 http://www.francophonie.org/
 
 Ce projet a été rendu possible grâce au support de l'Organisation
 internationale de la Francophonie.
 http://www.francophonie.org/
 
-Build and installation
+Compilación e instalación
 ----------------------
-To build and install it, see the INSTALL file provided with the source code.
+Para compilarlo e instalarlo, consulte el archivo INSTALL incluido con el código fuente.
 
-To use this software on Mac OS X:
-* Install GStreamer using http://gstreamer.freedesktop.org/data/pkg/osx/1.2.4.1/gstreamer-1.0-1.2.4.1-universal.pkg : you should customize the installation and choose to install all components.
+ Para usar este software en Mac OS X:
+* Instale GStreamer usando http://gstreamer.freedesktop.org/data/pkg/osx/1.2.4.1/gstreamer-1.0-1.2.4.1-universal.pkg: debe personalizar la instalación y seleccionar instalar todos los componentes.
 
-To use this software on Gnu/Linux with window managers other than Unity, 
-make sure that this package is NOT installed: appmenu-qt5
-or else the menu will not show.
+Para usar este software en GNU/Linux con gestores de ventanas distintos de Unity,
+asegúrese de que este paquete: appmenu-qt5 NO esté instalado; de lo contrario, el menú no se mostrará.
 
-Authors
+Autores
 -------
-* Sofian Audry: lead developer, user interface designer, project manager.
-* Dame Diongue: developer.
-* Alexandre Quessy: release manager, developer, technical writer, project manager.
-* Mike Latona: user interface designer.
-* Vasilis Liaskovitis: developer.
+* Sofian Audry: desarrollador principal, diseñador de interfaz de usuario, gestor de proyectos.
+* Dame Diongue: desarrolladora.
+* Alexandre Quessy: gestor de versiones, desarrollador, redactor técnico, gestor de proyectos.
+* Mike Latona: diseñador de interfaz de usuario.
+* Vasilis Liaskovitis: desarrollador.
 
-Contributors
+Colaboradores
 ------------
-* Lucas Adair : developer, macOS packaging.
-* Christian Ambaud: sponsor, inspiration.
-* Alex Barry: user experience design.
-* Eliza Bennett : documentation, chinese translation.
-* Jonathan Roman Bland : developer.
-* Sylvain Cormier: developer.
-* Maxime Damecour: inspiration.
-* Louis Desjardins: project manager.
-* Ian Donnelly : user interface designer, documentation.
-* Gene Felice : video package, documentation.
-* Julien Keable: developer.
-* Marc Lavallée: help with packaging.
-* Matthew Loewens : documentation, developer.
-* Madison Suniga : documentation.
+* Lucas Adair: desarrollador, empaquetado para macOS.
+* Christian Ambaud: patrocinador, inspiración.  * Alex Barry: diseño de la experiencia de usuario.
+* Eliza Bennett: documentación, traducción al chino.
+* Jonathan Roman Bland: desarrollador.
+* Sylvain Cormier: desarrollador.
+* Maxime Damecour: inspiración.
+* Louis Desjardins: gestor de proyectos.
+* Ian Donnelly: diseñador de la interfaz de usuario, documentación.
+* Gene Felice: paquete de vídeo, documentación.
+* Julien Keable: desarrollador.
+* Marc Lavallée: ayuda con el empaquetado.
+* Matthew Loewens: documentación, desarrollador.
+* Madison Suniga: documentación.
 
-More info
+Más información
 ---------
-Get more info from http://mapmap.info
+Más información en http://mapmap.info
 
-Licence
+Licencia
 ---------
 [GNU GPL v3](https://github.com/mapmapteam/mapmap/blob/develop/LICENSE)
